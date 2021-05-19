@@ -1,3 +1,6 @@
+*{
+    font-family: Arial;
+}
 body{
     margin:0;
     padding:0;
@@ -6,7 +9,7 @@ header{
     display:flex;
     justify-content: center;
     height: 120px;
-    align-items: center;
+    
 }
 .container{
     display: flex;
@@ -37,7 +40,6 @@ text-decoration: none;
 text-transform: uppercase;
 justify-content: center;
 color: #727272;
-font-family: Arial;
 }
 nav .active a,
     nav a:hover {
@@ -47,13 +49,88 @@ nav .active a,
 
     }
 #banner{
+    display: flex;
+    justify-content: center;
     background-image: url('../images/img1.jpg');
     background-position: center;
     background-size: cover;
     height:670px;
 }
+.column{
+flex-direction: column;
+}
+.banner_headline{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.banner_headline h1{
+    color:#FFF;
+    font-size: 70px;
+    text-shadow: 1px 1px 0px #555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+    .banner_headline h2{
+        color:#FFF;
+        font-size: 21px;
+        text-shadow: 0px 1px 0px #555;
+        margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
 
-
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex:1;
+    color: #FFF;
+    padding: 20px;
+}
+.banner1{
+    background-color: #39aae1;
+}
+.banner2{
+    background-color: #0079c7;
+}
+.banner3{
+    background-color: #2b4c99;
+}
+.banner_title{
+font-size: 21px;
+}
+.banner_desc{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_options a{
+    display: inline-block;
+    border:1px solid #FFF;
+    padding: 5px;
+    color: #FFF;
+    font-size: 12px;
+    text-decoration: none;
+}
+.calendar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid #fcfcfc1e;    
+}
+.days,
+.hours {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
 
 
 
