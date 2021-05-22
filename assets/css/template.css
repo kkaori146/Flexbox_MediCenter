@@ -4,7 +4,7 @@
 body{
     margin:0;
     padding:0;
-    padding-bottom: 300px;
+   
 }
 header{
     display:flex;
@@ -274,21 +274,124 @@ footer{
 }
 .footer_menu{
 display: flex;
+
 }
-.fm_1,.fm_2,.fm_3{
+.footer_menu a{
+    text-decoration:none;
+    color:#FFF;
+}
+.fm_1, .fm_2, .fm_3{
     flex:1;
+    padding: 20px;
+    background-color: #39aae1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+
 }
+.fm_1{
+    background-color: #39aae1;
+}
+.fm_2{
+    background-color: #0079c7;
+}
+.fm_3{
+    background-color: #2b4c99;
+}
+.footer_area{
+    display: flex;
+ }
+.footer_areaitem{
+flex:1;
+color: #FFF;
 
+}
+.flexColumn{
+    flex-direction: column;
+}
+footer .widget_title_text{
+    color:#FFF;
+    }
 
-
-
-
-
-
-
-
-
-
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height:40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+    
+}
+.copyright, .copyright_descr2{
+    color:#5c5c5c;
+}
+.copyright_descr, .copyright_descr3{
+    color:#FFF;
+}
+.fm_descr{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.body_descr{
+   margin-top: 30px;
+   color:#FFF;
+   font-size: 14px;
+   margin-left: 12px; 
+}
+.latestposts_years{
+    margin-top: 5px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #39aae1;
+}
+.tweets_days{
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #39aae1;
+}
+.clinic_descr{
+    margin-right: 5px;
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+.contact_container{
+    display: flex;
+    line-height: 20px;
+}
+.andress_clinic{
+    color:#5c5c5c;
+    margin-top: 36px;
+    font-size: 14px;
+}
+.clinic_phone{
+    color:#5c5c5c;
+    margin-top: 55px;
+    font-size: 14px;
+    margin-left: 55px;
+}
+.clinic_phone span {
+    color:#FFF;
+}
+.img_box{
+    display: flex;
+    align-items:center;
+    margin-top: 55px;
+}
+.img1a, .img2b, .img3c, .img4d{
+    display: flex;
+    margin-right: 8px;
+    padding: 5px;
+    height: 20px;
+    width:20px;
+    background-color: #35343493;
+}
+.img1a,
+.img2b,
+.img3c,
+.email image{
+justify-content: center;    
+}
 
 
 
