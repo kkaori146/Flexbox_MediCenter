@@ -267,6 +267,18 @@ article .news_resume{
     margin-bottom: 30px;
 
 }
+footer{
+   background-color: #1e1e1e; 
+   display: flex;
+   justify-content: center;
+}
+.footer_menu{
+display: flex;
+}
+.fm_1,.fm_2,.fm_3{
+    flex:1;
+}
+
 
 
 
